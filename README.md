@@ -37,7 +37,7 @@ These results are not yet independently reproducible from this repository. Publi
 
 ## Ownership
 
-Agent Control Room is canonically maintained by [ORDIN](https://github.com/ordin-systems). It was architected and engineered by [Mike “Mizzy” Barrera](https://github.com/mizzysworld).
+Agent Control Room is canonically maintained by [ORDIN](https://github.com/ordin-systems).
 
 ## Planned public release gates
 
