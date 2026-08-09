@@ -2,9 +2,7 @@
 
 ## Primary author
 
-**Mike “Mizzy” Barrera**
-
-Agentic systems architecture, public-reference design and implementation direction.
+**Mike “Mizzy” Barrera and Monique Abrhams**
 
 ## Ownership
 
