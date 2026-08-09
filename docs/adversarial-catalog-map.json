@@ -1,0 +1,839 @@
+{
+  "allCatalogCasesMapped": true,
+  "cases": [
+    {
+      "checks": [
+        "02"
+      ],
+      "id": "SCH-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "02"
+      ],
+      "id": "SCH-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "02"
+      ],
+      "id": "SCH-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "02"
+      ],
+      "id": "SCH-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "02"
+      ],
+      "id": "SCH-05",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "03"
+      ],
+      "id": "SCH-06",
+      "note": "The public schema documents no aliases or source enum; unsupported representations are rejected rather than normalized.",
+      "status": "PASS_STRICT_NO_ALIASES"
+    },
+    {
+      "checks": [
+        "03"
+      ],
+      "id": "SCH-07",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "03"
+      ],
+      "id": "SCH-08",
+      "note": "The exact module-branded normalized object is idempotent; serialized, cloned, or reconstructed caller objects remain rejected.",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "03"
+      ],
+      "id": "SCH-09",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05",
+        "07"
+      ],
+      "id": "SCH-10",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05",
+        "09"
+      ],
+      "id": "SCH-11",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-05",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-06",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-07",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-08",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-09",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "04",
+        "05"
+      ],
+      "id": "AUT-10",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "07"
+      ],
+      "id": "AUT-11",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "07"
+      ],
+      "id": "AUT-12",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "07"
+      ],
+      "id": "AUT-13",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "08"
+      ],
+      "id": "AUT-14",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "06"
+      ],
+      "id": "AUT-15",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "02",
+        "06"
+      ],
+      "id": "AUT-16",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "02",
+        "06"
+      ],
+      "id": "AUT-17",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-05",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-06",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-07",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-08",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-09",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-10",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-11",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-12",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "11"
+      ],
+      "id": "APR-13",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "10"
+      ],
+      "id": "HND-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "11"
+      ],
+      "id": "HND-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "11"
+      ],
+      "id": "HND-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "11"
+      ],
+      "id": "HND-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "11"
+      ],
+      "id": "HND-05",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "11"
+      ],
+      "id": "HND-06",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "11"
+      ],
+      "id": "HND-07",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "15"
+      ],
+      "id": "HND-08",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "15"
+      ],
+      "id": "HND-09",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "15"
+      ],
+      "id": "HND-10",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "06"
+      ],
+      "id": "HND-11",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-05",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-06",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-07",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-08",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12",
+        "13"
+      ],
+      "id": "RCP-09",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "RCP-10",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "RCP-11",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "RCP-12",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "12"
+      ],
+      "id": "RCP-13",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "RCP-14",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "REC-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "REC-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "REC-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "14"
+      ],
+      "id": "REC-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-03",
+      "note": "Passes by strict state ordering plus absence of any auto-prerequisite or external-restoration surface.",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-05",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-06",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-07",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-08",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-09",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-10",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "16"
+      ],
+      "id": "RST-11",
+      "note": "Passes by strict state ordering plus absence of any auto-prerequisite or external-restoration surface.",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "18"
+      ],
+      "id": "GOV-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "18"
+      ],
+      "id": "GOV-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "18"
+      ],
+      "id": "GOV-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "18"
+      ],
+      "id": "GOV-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "18"
+      ],
+      "id": "GOV-05",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "18"
+      ],
+      "id": "GOV-06",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "18"
+      ],
+      "id": "PUB-01",
+      "note": "Requires named verifier evidence plus the external scanner/runtime artifact referenced below.",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "01",
+        "18"
+      ],
+      "id": "PUB-02",
+      "note": "Requires named verifier evidence plus the external scanner/runtime artifact referenced below.",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "id": "PUB-03",
+      "note": "Requires named verifier evidence plus the external scanner/runtime artifact referenced below.",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "01",
+        "19"
+      ],
+      "id": "PUB-04",
+      "note": "Requires named verifier evidence plus the external scanner/runtime artifact referenced below.",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "17"
+      ],
+      "id": "E2E-01",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "11",
+        "17"
+      ],
+      "id": "E2E-02",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "09",
+        "15",
+        "16"
+      ],
+      "id": "E2E-03",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    },
+    {
+      "checks": [
+        "03",
+        "17",
+        "18"
+      ],
+      "id": "E2E-04",
+      "note": "Behaviorally executed by the named verifier entry point(s).",
+      "status": "PASS"
+    }
+  ],
+  "catalogCaseCount": 95,
+  "catalogFile": "ACR_ADVERSARIAL_ACCEPTANCE_CATALOG.md",
+  "catalogSha256": "4ea30d2a4c55b05f00fadefa4f0637d8212ed11d2a9f493b69a5df192c7b9f6a",
+  "externalEvidence": [
+    "../../external-audit/report-post-review-remediation-pre-freeze.json",
+    "../../external-audit/test_scanner.py",
+    "../../node20.19-post-review-remediation.log",
+    "../../node22.12-post-review-remediation.log"
+  ],
+  "namedVerifierCount": 19,
+  "schemaVersion": "acr-adversarial-catalog-map.v1"
+}

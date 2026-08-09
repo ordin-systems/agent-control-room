@@ -1,0 +1,53 @@
+{
+  "name": "@ordin/agent-control-room-public-reference",
+  "version": "0.1.0",
+  "description": "Sanitized local execution-boundary authority reference",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "ORDIN",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "packageManager": "npm@10.9.8",
+  "exports": "./dist/index.mjs",
+  "files": [
+    "dist/",
+    "AUTHORS.md",
+    "CHANGELOG.md",
+    "CLAIMS_AND_LIMITATIONS.md",
+    "NOTICE.md",
+    "PROVENANCE.md",
+    "README.md",
+    "REPRODUCIBILITY.md",
+    "SECURITY.md",
+    "docs/"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "format:check": "node scripts/format-check.mjs",
+    "lint": "node scripts/lint.mjs",
+    "package:check": "node scripts/package-proof.mjs",
+    "publication:scan": "node scripts/publication-scan.mjs",
+    "check:01": "node --test test/01-locked-dependency-manifest.test.mjs",
+    "check:02": "node --test test/02-execution-intent-schema.test.mjs",
+    "check:03": "node --test test/03-deterministic-normalization.test.mjs",
+    "check:04": "node --test test/04-permission-profiles.test.mjs",
+    "check:05": "node --test test/05-task-envelope-lifecycle.test.mjs",
+    "check:06": "node --test test/06-deterministic-allow.test.mjs",
+    "check:07": "node --test test/07-deterministic-deny.test.mjs",
+    "check:08": "node --test test/08-deterministic-step-up.test.mjs",
+    "check:09": "node --test test/09-approval-identity-binding-consumption.test.mjs",
+    "check:10": "node --test test/10-denied-no-handoff.test.mjs",
+    "check:11": "node --test test/11-step-up-no-handoff.test.mjs",
+    "check:12": "node --test test/12-persistent-receipt-ledger.test.mjs",
+    "check:13": "node --test test/13-receipt-digest-tamper-integrity.test.mjs",
+    "check:14": "node --test test/14-recovery-case-derivation.test.mjs",
+    "check:15": "node --test test/15-explicit-safe-canary-handoff.test.mjs",
+    "check:16": "node --test test/16-ordered-canary-restoration.test.mjs",
+    "check:17": "node --test test/17-destructive-synthetic-e2e.test.mjs",
+    "check:18": "node --test test/18-governance-publication-hardening.test.mjs",
+    "check:19": "node --test test/19-production-build-package-proof.test.mjs",
+    "verify": "node scripts/verify.mjs"
+  }
+}
