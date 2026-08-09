@@ -1,9 +1,6 @@
 # Authors
 
-## Project authors
-
-- **Mike “Mizzy” Barrera** — agentic systems architecture, public-reference design and implementation direction.
-- **Monique Abrams** — strategic direction, ecosystem stewardship and project authorship.
+**Mike “Mizzy” Barrera and Monique Abrams** — joint authors and co-architects.
 
 ## Ownership
 
