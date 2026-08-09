@@ -557,6 +557,6 @@ export const CASES = {
     assert.ok(Object.keys(manifest.files).includes("index.mjs"));
     const packed = packageProof();
     assert.ok(packed.fileCount > 0);
-    assert.match(packed.filename, /agent-control-room-public-reference-0\.1\.0\.tgz$/);
+    assert.match(packed.filename, /agent-control-room-public-reference-0\.1\.1\.tgz$/);
   },
 };

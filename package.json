@@ -1,6 +1,6 @@
 {
   "name": "@ordin/agent-control-room-public-reference",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sanitized local execution-boundary authority reference",
   "type": "module",
   "private": true,

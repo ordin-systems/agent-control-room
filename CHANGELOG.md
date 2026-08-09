@@ -1,6 +1,12 @@
 # Changelog
 
-## 0.1.0 — Unreleased public-reference candidate
+## 0.1.1 — 2026-08-09
+
+- Credited Mike “Mizzy” Barrera and Monique Abrams together as joint authors and co-architects.
+- Updated release metadata without changing runtime behavior, claims or license boundaries.
+- Preserved the immutable `v0.1.0` release and its evidence artifacts.
+
+## 0.1.0 — 2026-08-09
 
 - Added strict execution-intent and policy schemas.
 - Added deterministic `ALLOW`, `DENY` and `STEP_UP` authority evaluation.
@@ -13,5 +19,4 @@
 - Added executable governance stages.
 - Added exactly 19 named behavioral verifiers, clean CI, build and package proof.
 - Added explicit public claim limitations and clean-room provenance.
-
-No immutable release has been published from this candidate yet.
+- Published the initial immutable public-reference release.
