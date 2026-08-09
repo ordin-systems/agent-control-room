@@ -19,14 +19,17 @@
 | Structural hardening and build | scripts, workflow, package metadata | 01, 18, 19 | Lock, runtime primitive scan, build/package proof |
 | Destructive synthetic E2E withheld handoff | boundary/ledger/recovery | 17 | Protected action denied, executor zero, receipt and Recovery Case retained |
 
-## Independent evidence still required before release
+## Independent release evidence
 
-- external publication scanner against the exact clean commit and tree;
-- clean install under both supported Node lines;
-- public CI receipt;
-- independent specification and security review;
-- source/package/release manifest hashes;
-- immutable tag/release;
-- logged-out clone and asset readback.
+Release `v0.1.0` closed the prior external gates:
+
+- exact public-main and recursive package scanner results: `GO`, zero findings;
+- clean `npm ci --ignore-scripts` and aggregate verification under Node `20.19.0` and `22.12.0`;
+- independent specification/security finding reconciliation and a final consistency-review `PASS`;
+- source tree, package-member manifest and release-asset SHA-256 identities;
+- annotated tag and public API `immutable: true` release state;
+- credential-free public clone plus logged-out, byte-identical asset download and blank-consumer import.
+
+See the [Technical Evidence Index](technical-evidence-index.md) and [machine-readable release evidence](release-evidence-v0.1.0.json).
 
 See `CLAIMS_AND_LIMITATIONS.md` for the boundary on every claim.
