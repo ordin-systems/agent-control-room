@@ -2,7 +2,7 @@
 
 **Sanitized local execution-boundary authority reference**
 
-> **Status:** pre-release public-reference candidate. Source, synthetic fixtures and exactly 19 named behavioral verifiers are present. This branch is not yet the immutable public release.
+> **Status:** immutable public reference released as [`v0.1.0`](https://github.com/ordin-systems/agent-control-room/releases/tag/v0.1.0). The release binds the audited source tree, exactly 19 named behavioral verifiers, the 95-case adversarial map and three SHA-256-addressed assets.
 
 Agent Control Room demonstrates a deterministic, repo-local authority gate before a bounded handoff. It turns a strict execution intent into `ALLOW`, `DENY` or `STEP_UP`; retains reason-coded evidence; and proves that denied or unresolved work reaches the executor exactly zero times.
 
@@ -73,7 +73,7 @@ See [Claims and limitations](CLAIMS_AND_LIMITATIONS.md) and [Threat model](docs/
 
 ## Evidence map
 
-Reviewer paths are indexed in [docs/evidence-map.md](docs/evidence-map.md). The implementation is synthetic and clean-room reconstructed; see [PROVENANCE.md](PROVENANCE.md).
+Reviewer paths are indexed in the [Technical Evidence Index](docs/technical-evidence-index.md), with machine-readable release receipts in [release evidence](docs/release-evidence-v0.1.0.json). The implementation is synthetic and clean-room reconstructed; see [PROVENANCE.md](PROVENANCE.md).
 
 ## Rights
 

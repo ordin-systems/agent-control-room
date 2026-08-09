@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "acr-public-release-evidence.v1",
+  "release": {
+    "repository": "https://github.com/ordin-systems/agent-control-room",
+    "pullRequest": "https://github.com/ordin-systems/agent-control-room/pull/1",
+    "releaseUrl": "https://github.com/ordin-systems/agent-control-room/releases/tag/v0.1.0",
+    "releaseId": 367559309,
+    "tag": "v0.1.0",
+    "tagObject": "9b2b8e3c59d00b3a38c2cc333d422dca2176f73b",
+    "mergeCommit": "24bbb09176ec790000d05ffde382ed3c743f944a",
+    "auditedSourceCommit": "0a93abac3e2353698c6f4dd1dc91043fb8e6b8bf",
+    "baselineCommit": "641671d4c478ba3370dd5001a7902ec0bae2d482",
+    "sourceTree": "2b68c31b68bc622b02c4eeee2f8b3a240537c99e",
+    "immutable": true,
+    "publishedAt": "2026-08-09T18:58:27Z",
+    "license": "UNLICENSED"
+  },
+  "behavioralVerification": {
+    "namedVerifierEntryPoints": 19,
+    "namedVerifierEntryPointsPassed": 19,
+    "adversarialCatalogCases": 95,
+    "adversarialCatalogCasesMapped": 95,
+    "adversarialCatalogSha256": "4ea30d2a4c55b05f00fadefa4f0637d8212ed11d2a9f493b69a5df192c7b9f6a",
+    "dependencyVulnerabilities": 0,
+    "independentFinalConsistencyReview": "PASS"
+  },
+  "continuousIntegration": {
+    "pullRequest": {
+      "runId": 31329300375,
+      "url": "https://github.com/ordin-systems/agent-control-room/actions/runs/31329300375",
+      "node20.19.0": "PASS",
+      "node22.12.0": "PASS"
+    },
+    "main": {
+      "runId": 31330003081,
+      "url": "https://github.com/ordin-systems/agent-control-room/actions/runs/31330003081",
+      "node20.19.0": "PASS",
+      "node22.12.0": "PASS"
+    },
+    "tag": {
+      "runId": 31330211219,
+      "url": "https://github.com/ordin-systems/agent-control-room/actions/runs/31330211219",
+      "node20.19.0": "PASS",
+      "node22.12.0": "PASS"
+    }
+  },
+  "externalAudit": {
+    "scannerVersion": "1.0.1",
+    "scannerSha256": "c0533a22377e3ae7b8a1ff632d188a34b3f04d667f80ea508e629b089316877f",
+    "policySha256": "378e37baa8dd5af2a736b85f37dfec81ff97b768a95b568fa615d1411add6a57",
+    "scannerAdversarialTests": "21/21 PASS",
+    "publicMain": {
+      "decision": "GO",
+      "checksPass": 29,
+      "checksNotApplicable": 11,
+      "checksFail": 0,
+      "checksError": 0,
+      "findings": 0,
+      "reportSha256": "f8608ed611c442b739df498d743fe33245649105527c6b04ca405d0c8d98f6d2"
+    },
+    "releasePackage": {
+      "decision": "GO",
+      "checksPass": 29,
+      "checksNotApplicable": 11,
+      "checksFail": 0,
+      "checksError": 0,
+      "findings": 0,
+      "reportSha256": "fda083d7a08ab91484bcf55784527fcbfd9fa619d4286b9f2091542c43326820"
+    }
+  },
+  "assets": [
+    {
+      "id": 507803822,
+      "name": "ordin-agent-control-room-public-reference-0.1.0.tgz",
+      "size": 28399,
+      "sha256": "44c93d431cbc829cd01b46abfcfd09980fba1f74f60d4ee619709018a3482341",
+      "url": "https://github.com/ordin-systems/agent-control-room/releases/download/v0.1.0/ordin-agent-control-room-public-reference-0.1.0.tgz"
+    },
+    {
+      "id": 507803823,
+      "name": "package-manifest-v0.1.0.json",
+      "size": 5665,
+      "sha256": "3511a8436030b6dae76f6de292dfc6eefc37104b8044aa254f14b723d88ee807",
+      "url": "https://github.com/ordin-systems/agent-control-room/releases/download/v0.1.0/package-manifest-v0.1.0.json"
+    },
+    {
+      "id": 507803820,
+      "name": "SHA256SUMS",
+      "size": 213,
+      "sha256": "c616b21a6311216fa3b8b5b121fb7dfee5b5825b0fc2abba8e1fd683bccdfe93",
+      "url": "https://github.com/ordin-systems/agent-control-room/releases/download/v0.1.0/SHA256SUMS"
+    }
+  ],
+  "loggedOutReadback": {
+    "releaseApi": "PASS",
+    "releaseImmutable": true,
+    "assetByteIdentity": "PASS",
+    "archiveMemberCount": 32,
+    "archiveSafety": "PASS",
+    "blankConsumerInstall": "PASS",
+    "requiredExportsImport": "PASS"
+  },
+  "repositoryControls": {
+    "immutableReleasesEnabled": true,
+    "mainRequiresPullRequest": true,
+    "mainStrictRequiredChecks": [
+      "verify (20.19.0)",
+      "verify (22.12.0)"
+    ],
+    "mainForcePushesAllowed": false,
+    "mainDeletionAllowed": false,
+    "mergeCommitsAllowed": true,
+    "additionalTagRuleset": false,
+    "tagProtectionRationale": "Published tags and assets are locked by immutable releases; no blanket rule was added that could break the future draft-to-publish workflow."
+  }
+}

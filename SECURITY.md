@@ -2,7 +2,7 @@
 
 ## Supported scope
 
-Security review applies to the latest immutable reference release and its exact commit, tag and attached evidence manifest. The current feature branch is a pre-release candidate.
+Security review applies to the latest immutable reference release and its exact commit, tag and attached evidence manifest. The current immutable release is [`v0.1.0`](https://github.com/ordin-systems/agent-control-room/releases/tag/v0.1.0); later `main` documentation updates do not rewrite that snapshot.
 
 ## Reporting
 
